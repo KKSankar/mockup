@@ -22,8 +22,6 @@ header {
 }
 header h1, header p {
   color: white;
-  text-align: -moz-left;
-  text-align: -webkit-left;
   padding-left: 150px;
 }
 header h1 {
@@ -110,6 +108,9 @@ aside p {
   line-height: 27px;
   letter-spacing: 0.02em;
 }
+aside img {
+  width: 98%;
+}
 div aside {
   width: 20%;
   float: right;
@@ -129,6 +130,7 @@ footer {
 footer img {
   margin: 20px 500px 20px 450px;
   padding: 2px;
+  width: 30%;
 }
 footer p {
   color: white;
