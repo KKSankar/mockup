@@ -61,33 +61,44 @@ li a {
     text-decoration: none;
     color: black;
 }
-section h3, section p {
-  width: 63%;
-  letter-spacing: 0.04em;
+div section h3, section p {
+  letter-spacing: 0.05em;
   color: rgb(72, 160, 192);
-  margin: 30px 5px 17px 0px;
   padding: 2px 2px 2px 150px;
-  float: left;
 }
-section p {
+div section p {
   color: rgb(53, 52, 52);
   font-family: 'Times New Roman';
   font-size: 1.2em;
   font-weight: 100;
   text-align: justify;
-  line-height: 27px;
-  letter-spacing: 0.02em;
-  margin: 20px 5px 17px 0px;
-  width: 60%;
+  line-height: 1.45em;
+  letter-spacing: 0.03em;
 }
-section p span, aside span {
+div section p span, aside span {
   color: rgb(72, 160, 192);
+}
+div section {
+  width: 65%;
+  float: left;
+  display:inline-block;
+}
+div section #first-heading {
+    line-height: 1.4em;
+    font-size: 1.4em;
+}
+div section #second-heading {
+  color: black;
+}
+div section #second-parag {
+  color: rgb(72, 160, 192);
+  line-height: 1.8em;
+  font-size: 1.5em;
+  letter-spacing: 0.034em;
 }
 aside h3, aside p {
-  width: 25%;
   letter-spacing: 0.04em;
   color: rgb(72, 160, 192);
-  margin: 5px 5px 5px 3px;
   padding: 2px 2px 2px 2px;
 }
 aside p {
@@ -98,24 +109,31 @@ aside p {
   text-align: justify;
   line-height: 27px;
   letter-spacing: 0.02em;
-  margin: 20px 5px 5px 0px;
 }
-aside {
-    float: right;
+div aside {
+  width: 20%;
+  float: right;
+  display:inline-block;
+  padding: 10px;
+  margin-right: 80px;
+}
+div a {
+  text-decoration: none;
+  color: rgb(72, 160, 192);
 }
 footer {
   background-color: rgb(37, 37, 37);
-  width: 150%;
+  width: 100%;
   margin-top: auto;
 }
 footer img {
-  margin: 20px 500px 20px 500px;
+  margin: 20px 500px 20px 450px;
   padding: 2px;
 }
 footer p {
   color: white;
-  width:45%;
-  padding: 2px 2px 2px 300px;
+  width:60%;
+  padding: 2px 2px 2px 400px;
   text-align:center;
   line-height: 1.5em;
 }
